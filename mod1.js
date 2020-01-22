@@ -1,4 +1,3 @@
-var a = require('./movie');
-a.name="Omar";
-console.log("My name is ",a.name);
-
+var bmovie = require('./movies');
+bmovie.name1="Polar";
+console.log("Module1 loves",bmovie.name1);
